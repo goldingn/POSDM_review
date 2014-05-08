@@ -6,9 +6,9 @@ Probably the most common approach is to augment the occurrence data with backgro
 
 ## MaxEnt
 
-The other commonly used approach is MaxEnt ([Phillips *et al.* (2006)](http://www.cs.princeton.edu/~schapire/papers/ecolmod.pdf); [Phillips & Dudik (2011)](http://onlinelibrary.wiley.com/doi/10.1111/j.0906-7590.2008.5203.x/abstract)). MaxEnt differs from most other SDMs in a few important ways that made it very popular:
+The other commonly used approach is MaxEnt ([Phillips *et al.* (2006)](http://www.cs.princeton.edu/~schapire/papers/ecolmod.pdf); [Phillips & Dudik (2011)](http://onlinelibrary.wiley.com/doi/10.1111/j.0906-7590.2008.5203.x/abstract)). MaxEnt differs from most other presence-only SDMs in a few important ways that made it very popular:
 
-1. It defines a likelihood function for presence-only modeling by minimizing the relative entropy between the distribution of presence points and randomly sampled background points ([Elith *et al.* (2011)](http://www.research.att.com/export/sites/att_labs/techdocs/TD_100253.pdf) give an intuitive exaplanation)
+1. It defines a likelihood function that is suitable for presence-only modeling by minimizing the relative entropy between the distribution of presence points and randomly sampled background points ([Elith *et al.* (2011)](http://www.research.att.com/export/sites/att_labs/techdocs/TD_100253.pdf) give an intuitive exaplanation)
 2. It includes very effective procedures for adding nonlinearities to the model and preventing overfitting
 3. It includes a user-friendly point-and-click program
 
